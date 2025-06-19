@@ -8,11 +8,24 @@ print(a or b)   # True
 print(not a)    # False
 print(not b)    # True
 
+"""
+T and T = T
+
+T and F = F
+
+T or F = T
+
+not T = F
+not F = T
+
+"""
+
 
 """
 2. Checking Even or Odd Number
 """
 num = 102
+
 is_even = num % 2 == 0  # True if even, False if odd
 
 print(is_even)  # Output: True
@@ -77,9 +90,9 @@ print(evens)  # Output: [2, 4, 6]
 """
 9. Checking If a Number is in a List
 """
-nums = [1, 2, 3, 4, 5]
-print(3 in nums)   # True
-print(10 in nums)  # False
+numbers = [1, 2, 3, 4, 5]
+print(3 in numbers)   # True
+print(10 in numbers)  # False
 
 """
 10. Boolean Short-Circuiting

@@ -12,7 +12,13 @@ print ("list1[0]: ", list1[0])
 print ("list2[1:5]: ", list2[1:5])
 
 
+<<<<<<< Updated upstream:basic/datatypes/ListPro/ListPro.py
 """
+list1[0]:  physics
+list2[1:5]:  [2, 3, 4, 5]
+=======
+"""  
+>>>>>>> Stashed changes:datatypes/ListPro/ListPro.py
 """
 
 #1. Find the Sum of All Elements in a List

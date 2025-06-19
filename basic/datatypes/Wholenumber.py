@@ -7,8 +7,7 @@ print(3//2)# Division #1.5
 
 print(7//4) # Floor Division 1
 
-print(7%4) # # Modulo -3
-
+print(7%4) # # Modulo -3 = Remainder
 print(2**3) # Powers 2 * 2 * 2 = 8
 
 print(4**0.5) # Powers
