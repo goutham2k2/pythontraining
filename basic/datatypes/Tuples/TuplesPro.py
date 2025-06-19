@@ -1,5 +1,7 @@
 numbers = (10,11,12,13)
 
+a,b,c,d = (10,11,12,13)
+
 for num in numbers:
     print(num)
 

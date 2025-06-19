@@ -37,7 +37,15 @@ print(set1 & set2)  # Intersection: {3, 4}
 print(set1 - set2)  # Difference: {1, 2} (Elements in set1 but not in set2)
 print(set1 ^ set2)  # Symmetric Difference: {1, 2, 5, 6} (Elements not in both)
 
+a = {1, 2, 3}
+b = {3, 4, 5}
+print(a.union(b))  # {1, 2, 3, 4, 5}
 
+print(a.intersection(b))  # {3}
+
+print(a.difference(b))  # {1, 2}
+
+print(a.symmetric_difference(b))  # {1, 2, 4, 5}
 
 #Checking for Element Existence
 my_set = {1, 2, 3, 4, 5}

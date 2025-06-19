@@ -8,6 +8,18 @@ print(a or b)   # True
 print(not a)    # False
 print(not b)    # True
 
+"""
+T and T = T
+
+T and F = F
+
+T or F = T
+
+not T = F
+not F = T
+
+"""
+
 
 """
 2. Checking Even or Odd Number

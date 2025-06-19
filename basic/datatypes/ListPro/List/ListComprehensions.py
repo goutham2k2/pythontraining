@@ -1,10 +1,10 @@
+
 mystring="hello"
 mylist = []
 for letter in mystring:
     mylist.append(letter)
 
 #print("After appending : %s" %mylist ) #['h', 'e', 'l', 'l', 'o']
-
 mylist = [letter for letter in mystring] #['h', 'e', 'l', 'l', 'o']
 #print("append : %s" %mylist)
 
