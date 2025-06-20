@@ -11,14 +11,12 @@ list2 = [1, 2, 3, 4, 5, 6, 7 ]
 print ("list1[0]: ", list1[0])
 print ("list2[1:5]: ", list2[1:5])
 
-
-<<<<<<< Updated upstream:basic/datatypes/ListPro/ListPro.py
 """
 list1[0]:  physics
 list2[1:5]:  [2, 3, 4, 5]
 =======
-"""  
->>>>>>> Stashed changes:datatypes/ListPro/ListPro.py
+"""
+
 """
 
 #1. Find the Sum of All Elements in a List
@@ -55,6 +53,5 @@ else:
 
 # Count Occurrences of an Element
 colors = ['red', 'blue', 'red', 'green', 'red']
-print("Red count:", colors.count('red'))
+print("Red count:", colors.count('red'))\
 
-#
