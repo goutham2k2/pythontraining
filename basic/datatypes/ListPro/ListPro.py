@@ -11,7 +11,6 @@ list2 = [1, 2, 3, 4, 5, 6, 7 ]
 print ("list1[0]: ", list1[0])
 print ("list2[1:5]: ", list2[1:5])
 
-
 """
 list1[0]:  physics
 list2[1:5]:  [2, 3, 4, 5]
@@ -51,6 +50,5 @@ else:
 
 # Count Occurrences of an Element
 colors = ['red', 'blue', 'red', 'green', 'red']
-print("Red count:", colors.count('red'))
+print("Red count:", colors.count('red'))\
 
-#
