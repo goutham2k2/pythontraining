@@ -20,4 +20,4 @@ account.deposit(500)
 account.withdraw(300)
 
 # Accessing private attribute directly (will fail)
-# print(account.__balance)  # Uncomment to see the error
+print(account.__balance)  # Uncomment to see the error
